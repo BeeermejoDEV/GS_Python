@@ -1,10 +1,6 @@
-def saludo():
-    print ("Hola ")
-saludo()
-
 def saludoPersonalizado(nombre):
-    print (f"Hola, que tal estas {nombre}")
+    print(f"hola! Bienvenido {nombre}")
 
-    """ Para meter {xxx} hay que poner f antes como muestra ahi"""
 
-saludoPersonalizado("pepe")
+nombreUsu = input("Introduce tu nombre! \n")
+saludoPersonalizado(nombreUsu)
