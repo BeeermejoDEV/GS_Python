@@ -13,7 +13,7 @@ def computePay(horas,tarifa):
         salario = horas*tarifa
         print (f"tu salario es de: {salario}")
 
-horasUsu= int (input("Escriba cuantas horas trabaja por favor: \n"))
-tarifaUsu= int (input("Escribe a cuanto te pagan la hora porfavor: \n"))
+horasUsu= float (input("Escriba cuantas horas trabaja por favor: \n"))
+tarifaUsu= float (input("Escribe a cuanto te pagan la hora porfavor: \n"))
 
 computePay(horasUsu, tarifaUsu)
