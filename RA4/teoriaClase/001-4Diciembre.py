@@ -16,7 +16,7 @@ def contadorSoloDeLetras (string):
     numero=[]
     edad ="";
     for letra in string:
-        if (letra.isdigit()==True):zz
+        if (letra.isdigit()==True):
             contadorNumero+=1
             numero.append(letra)
         elif (letra.isalpha()):
